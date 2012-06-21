@@ -8,20 +8,20 @@
     drawTable: function() {
       // faux data
       var c1 = new Campaign.Model({
-            client: "Verizon",
-            manager: "John Ramey",
-            properties: 14,
+            client: "Howdy Doody Circus Army",
+            manager: "Alice",
+            properties: 15,
             impressions: 43430382,
             clicks: 8735,
             spend: 40250
           }),
           c2 = new Campaign.Model({
-            client: "Home Depot",
-            manager: "Dominique Lafaysse",
+            client: "Acme Corp",
+            manager: "Bob",
             properties: 30,
-            impressions: 43430328,
+            impressions: 3430328,
             clicks: 7835,
-            spend: 42050
+            spend: 2050
           }),
           cs = new Campaign.Collection([c1, c2]);
 
